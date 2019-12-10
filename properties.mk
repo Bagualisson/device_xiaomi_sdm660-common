@@ -1,5 +1,6 @@
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 \
     af.fast_track_multiplier=1 \
     vendor.audio_hal.period_size=240 \
     ro.vendor.audio.sdk.fluencetype=fluence \
