@@ -37,6 +37,7 @@ import /vendor/etc/init/hw/init.cpuboost.rc
 import /vendor/etc/init/hw/init.parallax.rc
 import /vendor/etc/init/hw/init.spectrum.rc
 import /vendor/etc/init/hw/init.camera.rc
+import init.spectrum.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
@@ -326,6 +327,10 @@ on post-fs-data
     #Create directories for wifihal services
     mkdir /dev/socket/wifihal 0770 wifi wifi
     chmod 2770 /dev/socket/wifihal
+
+# Permissions for Touch Gesture Mode
+    chown system system /sys/kernel/touchpanel/gesture_node
+    chmod 0664 /sys/kernel/touchpanel/gesture_node
 
     # Create /data/time folder for time-services
     mkdir /data/vendor/time/ 0700 system system
