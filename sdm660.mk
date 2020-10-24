@@ -409,10 +409,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay 
-
 # RRO configuration
 TARGET_USES_RRO := true
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -425,7 +421,21 @@ else
     PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/power-libperfmgr/sdm660_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 endif
-    
+
+#Overlays
+PRODUCT_PACKAGES += \
+    AOSPASDM660Frameworks \
+    AOSPASDM660SystemUI \
+    SDM660CarrierConfig \
+    SDM660DocumentsUI \
+    SDM660Frameworks \
+    SDM660Settings \
+    SDM660SettingsLib \
+    SDM660SettingsProvider \
+    SDM660SystemUI \
+    SDM660Telephony \
+    SDM660Wifi
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
