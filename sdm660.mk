@@ -441,6 +441,10 @@ PRODUCT_PACKAGES += \
     vndk-ext \
     vndk_package
 
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
