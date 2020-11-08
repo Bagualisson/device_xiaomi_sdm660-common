@@ -3,3 +3,7 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
+type sysfs_kgsl, sysfs_type, fs_type;
+type hal_perf_hwservice, hwservice_manager_type;
+type camera_prop, file_type;
+type persist_file, file_type;
