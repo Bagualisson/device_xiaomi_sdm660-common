@@ -29,3 +29,7 @@
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# Persist
+/persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
+/dsp(/.*)?                                      u:object_r:adsprpcd_file:s0
