@@ -179,6 +179,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libstagefright_enc_common \
     liboverlay \
     libtinyxml \
     libqdMetaData \
