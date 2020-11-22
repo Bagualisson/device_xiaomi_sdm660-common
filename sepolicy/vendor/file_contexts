@@ -12,6 +12,10 @@
 /firmware                                       u:object_r:firmware_file:s0
 /bt_firmware                                    u:object_r:bt_firmware_file:s0
 
+# Persist
+/persist/PRSensorData\.txt                      u:object_r:sensors_persist_file:s0
+/persist                                        u:object_r:mnt_vendor_file:s0
+
 # Hexagon DSP-side executable needed for Halide operation
 # This is labeled as public_adsprpcd_file as it needs to be read by apps
 # (e.g. Google Camera App)
@@ -26,9 +30,6 @@
 
 # Mlipay
 /(vendor|system/vendor)/bin/mlipayd@1.1         u:object_r:hal_mlipay_default_exec:s0
-
-# Persist
-/persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
