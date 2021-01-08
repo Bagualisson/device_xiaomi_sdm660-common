@@ -610,6 +610,9 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc447949
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
 
+# Wifi - from laurel_sprout V12.0.3.0.RFQMIXM
+vendor/bin/cnss-daemon|62963319931ac8c00083e401f875211943c1f281
+
 # WFD - from LA.UM.9.2.r1-01800-SDMxx0.0
 -framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
 -priv-app/WfdService/WfdService.apk|a605ec4ceb3e57867759ee4d121c32afbb0195b8
