@@ -200,4 +200,11 @@
     <!-- Label for feature switch -->
     <string name="switch_bar_off">Off</string>
 
+    <!-- Charging -->
+    <string name="smart_charging_main_title">Bateria</string>
+    <string name="smart_charging_title">Carregamento Inteligente</string>
+    <string name="smart_charging_summary">Ajuda no resfriamento &amp; também protege no excesso de carga do dispositivo</string>
+    <string name="reset_stats_title">Resetar status da bateria</string>
+    <string name="reset_stats_summary">As estatísticas da bateria serão redefinidas quando o limite de carga for atingido</string>
+
 </resources>
