@@ -76,6 +76,18 @@ PRODUCT_PACKAGES_DEBUG += \
 include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS += \
+    av \
+    bt \
+    gps \
+    init \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    wfd-legacy \
+    wlan
 
 # Permissions
 PRODUCT_COPY_FILES += \
