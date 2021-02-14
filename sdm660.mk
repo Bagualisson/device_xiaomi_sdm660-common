@@ -244,6 +244,10 @@ TARGET_SCREEN_DENSITY := 400
 PRODUCT_PACKAGES += \
     DeviceDoze
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
