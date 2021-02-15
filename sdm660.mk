@@ -561,8 +561,11 @@ PRODUCT_PACKAGES += \
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH)
-
+    $(COMMON_PATH) \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
+    vendor/qcom/opensource/commonsys/system/bt/conf \
+    vendor/qcom/common/bt \
+    packages/apps/Bluetooth
 # Shims
 PRODUCT_PACKAGES += \
     libcutils_shim
