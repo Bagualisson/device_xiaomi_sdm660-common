@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="advanced_settings">Xiaomi Parts</string>
-    <string name="advanced_settings_summary">Mini Kernel Manager for Redmi Note 7/7s</string>
+    <string name="advanced_settings_summary">Some additional settings for the device, Enjoy!</string>
 
     <string name="display_title">Display</string>
 
@@ -20,17 +20,6 @@
     <string name="device_kcal_title">Display Color Calibration</string>
     <string name="kcal_enabled_summary">Calibrate Display Using KCAL</string>
 
-    <!-- Backlight Dimmer -->
-    <string name="backlight_dimmer">Backlight Dimmer</string>
-    <string name="backlight_summary">Dim the display to the maximum value</string>
-
-    <string name="torch_title">Torch</string>
-    <string name="torch_brightness_title">Brightness</string>
-    <string name="yellow_torch_brightness_title">Yellow Torch Brightness</string>
-    <string name="white_torch_brightness_title">White Torch Brightness</string>
-    <string name="cameraflash_title">Camera Flash</string>
-    <string name="yellowflash_intensity_title">Yellow Light Intensity</string>
-	
     <!-- Vibration -->
     <string name="vibration_title">Vibration feedback</string>
     <string name="vibration_strength_title">System Strength</string>
@@ -168,11 +157,6 @@
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 
-    <!-- Log Tile -->
-    <string name="quick_settings_log_tile_label">LogTile</string>
-    <string name="quick_settings_log_tile_dialog_title">Options</string>
-    <string name="cannot_get_su">Action failed because of missing superuser access</string>
-
     <!-- FPS Info -->
     <string name="fps_info_title">FPS Info Overlay</string>
     <string name="fps_info_summary">Show overlay with current frames per second</string>
@@ -221,115 +205,6 @@
     <!-- Label for feature switch -->
     <string name="switch_bar_off">Off</string>
 
-    <!-- Game Turbo Boost -->
-    <string name="game_turbo_mode_title">Game Turbo Boost Performance</string>
-
-    <!-- Touchboost -->
-    <string name="boost_title">Touchboost</string>
-    <string name="touchboost_title">Enable Touchboost</string>
-    <string name="touchboost_summary">Boost cpu when touch detected for soomth experience</string>
-
-    <!-- GPU Boost Profiles -->
-    <string name="gpuboost_title">GPU Boost</string>
-    <string name="gpuboost_summary">Boost your gpu without compromising power efficiency</string>
-    <string name="gpuboost_dialogTitle">Select your GPU boost level</string>
-
-    <!-- Values for GPU Boost Presets -->
-    <string name="gpuboost_high">High</string>
-    <string name="gpuboost_medium">Medium</string>
-    <string name="gpuboost_low">Low</string>
-    <string name="gpuboost_disable">Disable</string>
-
-    <!-- CPU Boost Profiles -->
-    <string name="cpuboost_title">CPU Boost</string>
-    <string name="cpuboost_summary">Boost your cpu for better Experience</string>
-    <string name="cpuboost_dialogTitle">Select your CPU Boost level</string>
-
-    <!-- Values for CPU Boost Presets -->
-    <string name="cpuboost_extreme">Extreme</string>
-    <string name="cpuboost_high">High</string>
-    <string name="cpuboost_medium">Medium</string>
-    <string name="cpuboost_low">Low</string>
-    <string name="cpuboost_disable">Disable</string>
-
-    <!-- LED Brightness -->
-    <!--string name="chargingled_title">Charging LED</string>
-    <string name="led_blinking_title">Blinking Intensity</string -->
-
-    <string name="thermal_title">Thermal</string>
-    <string name="msmthermal_title">MSM Thermal</string>
-    <string name="msmthermal_summary">Enable Thermal driver control</string>
-    <string name="corecontrol_title">Core Control</string>
-    <string name="corecontrol_summary">Limit the cores</string>
-    <string name="vddrestrict_title">VDD Restriction</string>
-    <string name="vddrestrict_summary">Limits CPU voltage</string>
-    <string name="cpucore_title">CPU Core</string>
-    <string name="cpucore_summary">Control Your CPU core</string>
-    <string name="cpucore_dialogTitle">Select no. of core want to disable</string>
-
-    <!-- Values for CPU Boost Presets -->
-    <string name="cpucore_zero">0</string>
-    <string name="cpucore_one">1</string>
-    <string name="cpucore_two">2</string>
-    <string name="cpucore_three">3</string>
-    <string name="cpucore_four">4</string>
-    <string name="cpucore_five">5</string>
-    <string name="cpucore_six">6</string>
-    <string name="cpucore_seven">7</string>
-
-     <!-- LKM Profiles -->
-    <string name="lkmprofile_title">Low Memory Killer</string>
-    <string name="lkmprofile_summary">Low Memory Killer</string>
-    <string name="lkmprofile_dialogTitle">Choose your LKM profile</string>
-
-    <!-- Values for LKM Presets -->
-    <string name="lkmprofile_veryaggressive">Very Aggressive</string>
-    <string name="lkmprofile_aggressive">Aggressive</string>
-    <string name="lkmprofile_light">Light</string>
-    <string name="lkmprofile_medium">Medium</string>
-    <string name="lkmprofile_verylight">Very Light</string>
-    <string name="lkmprofile_default">Default</string>
-    <string name="lkmprofile_disable">Disable</string>
-
-    <!-- LKM Profiles -->
-    <string name="tcpcongestion_title">TCP Congestion</string>
-    <string name="tcpcongestion_summary">Transmission Control Protocol Congestion Algorithm</string>
-    <string name="tcpcongestion_dialogTitle">Choose your TCP Congestion Algorithm</string>
-
-    <!-- Values for LKM Presets -->
-    <string name="tcpcongestion_bbr">bbr</string>
-    <string name="tcpcongestion_cubic">cubic</string>
-    <string name="tcpcongestion_reno">reno</string>
-    <string name="tcpcongestion_bic">bic</string>
-    <string name="tcpcongestion_highspeed">highspeed</string>
-    <string name="tcpcongestion_htcp">htcp</string>
-    <string name="tcpcongestion_westwood">westwood</string>
-    <string name="tcpcongestion_cdg">cdg</string>
-    <string name="tcpcongestion_dctcp">dctcp</string>
-    <string name="tcpcongestion_hybla">hybla</string>
-    <string name="tcpcongestion_vegas">vegas</string>
-    <string name="tcpcongestion_nv">nv</string>
-    <string name="tcpcongestion_ip">ip</string>
-
-    <!-- Selinux Switch -->
-    <string name="selinux_category">SELinux</string>
-    <string name="selinux_explanation_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk.</string>
-    <string name="selinux_mode_title">SELinux mode</string>
-    <string name="selinux_permissive_summary">Permissive</string>
-    <string name="selinux_enforcing_summary">Enforcing</string>
-    <string name="selinux_persistence_title">Persist across reboots</string>
-    <string name="selinux_persistence_summary">Restore the above set sepolicy mode on each boot</string>
-    <string name="selinux_permissive_toast_title">Selinux set to permissive!</string>
-    <string name="selinux_enforcing_toast_title">Selinux set to enforcing!</string>
-
-    <!-- Speaker -->
-    <string name="speaker_category">Speaker</string>
-
-    <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Clear speaker</string>
-    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
-    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
-
     <!-- Charging -->
     <string name="smart_charging_main_title">Battery</string>
     <string name="smart_charging_title">Smart Charging</string>
@@ -337,13 +212,4 @@
     <string name="reset_stats_title">Reset battery stats</string>
     <string name="reset_stats_summary">Battery stats will get reset when charging limit is reached</string>
 
-    <!-- HAL3 | HAL1 Switch button profiles -->
-    <string name="camera_category">Camera</string>
-    <string name="camera_explanation_summary">HAL3 | HAL1 Switch button.</string>
-    <string name="camera_title">Camera Mode</string>
-    <string name="camera_hal1_summary">HAL1</string>
-    <string name="camera_hal3_summary">HAL3</string>
-    <string name="camera_hal1_toast_title">Selinux set to Hal1!</string>
-    <string name="camera_hal3_toast_title">Selinux set to Hal3!</string>
-    <string name="camera_dialogTitle">Select your HAL camera</string>
 </resources>

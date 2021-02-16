@@ -67,7 +67,7 @@
                 android:resource="@color/homepage_parts_background" />
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
+                android:value="com.android.settings.category.ia.system" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/advanced_settings_summary" />
@@ -97,17 +97,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".speaker.ClearSpeakerActivity" 
-            android:exported="false" 
-            android:label="@string/clear_speaker_title">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
         <service android:name=".StartAction" />
         <service
             android:name=".DiracService"
@@ -121,17 +110,6 @@
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
-        <service
-            android:name="com.xiaomi.parts.LogTile"
-            android:icon="@drawable/ic_qs_log"
-            android:label="@string/quick_settings_log_tile_label"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action
-                    android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
         <service
@@ -158,40 +136,6 @@
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
-
-        <service
-            android:name=".CpuboostTileService"
-            android:icon="@drawable/ic_cpuboost_qs"
-            android:label="@string/cpuboost_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
-        <service
-            android:name=".GpuboostTileService"
-            android:icon="@drawable/ic_gpuboost_qs"
-            android:label="@string/gpuboost_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-        <service android:name="com.xiaomi.parts.SmartChargingService"
-                android:exported="false">
-        </service>
-
-        <service
-            android:name=".CameraTileService"
-            android:icon="@drawable/ic_cam_qs"
-            android:label="@string/camera_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
         <service
             android:name=".XiaomiPartsTile"
             android:enabled="true"

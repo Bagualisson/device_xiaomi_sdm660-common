@@ -36,7 +36,6 @@ import androidx.preference.PreferenceViewHolder;
 import com.xiaomi.parts.R;
 import com.xiaomi.parts.Utils;
 import com.xiaomi.parts.DeviceSettings;
-import com.xiaomi.parts.BootReceiver;
 
 public class VibratorNotifStrengthPreference extends Preference implements
         SeekBar.OnSeekBarChangeListener {
