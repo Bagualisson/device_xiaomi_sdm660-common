@@ -25,7 +25,6 @@ import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import com.xiaomi.parts.Utils;
 import com.xiaomi.parts.DeviceSettings;
-import com.xiaomi.parts.BootReceiver;
 
 import java.util.List;
 
