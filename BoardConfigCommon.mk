@@ -134,6 +134,7 @@ endif
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 3.0
+TARGET_USES_HARDWARE_QCOM_GPS := false
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/configs/manifests/framework_manifest.xml
