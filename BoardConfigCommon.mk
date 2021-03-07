@@ -173,6 +173,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# Soong
+QCOM_SOONG_NAMESPACE := hardware/qcom-caf/sdm660
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
