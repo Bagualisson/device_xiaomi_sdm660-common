@@ -510,3 +510,7 @@ on boot
   chmod 0666 /sys/class/power_supply/battery/charging_enabled
   chown system system /sys/class/power_supply/battery/input_suspend
   chmod 0666 /sys/class/power_supply/battery/input_suspend
+
+# High Performance Audio
+  chown system system /sys/module/snd_soc_wcd9330/parameters/high_perf_mode
+  chmod 0660 /sys/module/snd_soc_wcd9330/parameters/high_perf_mode
