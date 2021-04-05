@@ -31,10 +31,10 @@
     <string name="spectrum_dialogTitle">Escolha o perfil de desempenho</string>
 
     <!-- Values for Spectrum Presets -->
-    <string name="spectrum_balance">Balanceado</string>
-    <string name="spectrum_performance">Performance</string>
-    <string name="spectrum_battery">Bateria</string>
-    <string name="spectrum_gaming">Jogo</string>
+    <string name="spectrum_balance">Normal</string>
+    <string name="spectrum_performance">Desempenho e Fluidez</string>
+    <string name="spectrum_battery">Economia de Bateria</string>
+    <string name="spectrum_gaming">Desempenho Máximo (Jogos)</string>
 
     <string name="audio_title">Àudio</string>
     <string name="highperfaudio_title">Modo de alto desempenho de áudio</string>

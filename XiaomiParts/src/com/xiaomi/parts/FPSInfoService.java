@@ -94,7 +94,7 @@ public class FPSInfoService extends Service {
             setPadding(paddingPx, paddingPx, paddingPx, paddingPx);
             setBackgroundColor(Color.argb(0x60, 0, 0, 0));
 
-            final int textSize = Math.round(18 * density);
+            final int textSize = Math.round(14 * density);
 
             Typeface typeface = Typeface.create("sans-serif-condensed", Typeface.BOLD);
 

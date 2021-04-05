@@ -111,7 +111,7 @@
 
         <com.xiaomi.parts.preferences.SecureSettingSwitchPreference
             android:key="highperfaudio"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:title="@string/highperfaudio_title"
             android:icon="@drawable/ic_haudio"
             android:summary="@string/highperfaudio_summary" />
