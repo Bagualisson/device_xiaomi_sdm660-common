@@ -35,3 +35,10 @@
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# HW QS Info
+/sys/devices/platform/HardwareInfo(/.*)? u:object_r:sysfs_info:s0
+/sys/devices/platform/HardwareInfo/gsensor u:object_r:sysfs_info:s0
+
+# Video4linux sysfs nodes
+/sys/devices/platform/soc/caa0000\.qcom,jpeg/video4linux/video1(/.*)?                         u:object_r:sysfs_graphics:s0
