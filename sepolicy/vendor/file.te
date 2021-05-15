@@ -40,3 +40,5 @@ type vendor_fp_prop, property_type;
 type blkio_dev, dev_type;
 type hall_dev, sysfs_type, fs_type;
 type vendor_camera_prop, property_type;
+type freq_prop, property_type;
+type fm_prop, property_type;
