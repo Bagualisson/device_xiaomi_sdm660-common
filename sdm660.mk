@@ -26,7 +26,7 @@ $(call inherit-product, $(LOCAL_PATH)/properties.mk)
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # R HALs
-OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
+#OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
 
 # Enable updatable APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
