@@ -156,6 +156,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1  \
     persist.dbg.wfc_avail_ovr=1
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sakura.maintainer=AlissonGrizotti
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
