@@ -13,3 +13,5 @@ type freq_prop, property_type;
 type fm_prop, property_type;
 
 type sysfs_fps, sysfs_type, fs_type;
+type qcom_ims_prop, property_type;
+type sysfs_info, fs_type, sysfs_type;
