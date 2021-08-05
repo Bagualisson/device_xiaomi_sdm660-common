@@ -129,11 +129,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_phase_offset_ns=1500000 \
-    debug.sf.enable_hwc_vds=1 \
+    debug.sf.enable_hwc_vds=0 \
     debug.sf.disable_backpressure=0 \
     debug.cpurend.vsync=true \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=0 \
+    debug.sf.latch_unsignaled=1 \
     ro.opengles.version=196610 \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
@@ -148,6 +148,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# Graphics Optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.egl.force_msaa=1 \
+    debug.egl.hw=1 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno \
+    debug.hwui.renderer=skiagl \
+    ro.surface_flinger.use_color_management=true \
+    ro.surface_flinger.supports_background_blur=1 \
+    persist.sys.sf.disable_blurs=0
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
